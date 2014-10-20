@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	height: 80px;
+	background-color: transparent;
+	margin: 0 auto;
+}
+
+.buttons {
+	background: none;
+	border: none;
+	font-size: 25px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 100px;
+	color: white;
+	padding: 10px;
+}
+
+.nav-buttons {
+	margin-right: 230px;
+}
+
+.main {
+	height: 800px;
+	width: 100%;
+	background: url("images/air-baloon.jpg") no-repeat center center;
+	background-size: cover;
+	border: 1px solid black;
+}
+
+#splendor-title {
+	font-size: 120px;
+	font-family:'Lato', sans-serif;
+	color: black;
+	margin: auto 0;
+	margin-left: 100px;
+}
+
+.local-host {
+	height: 550px;
+	width: 100%;
+}
+
+/*.location-box {
+	width: 200px;
+	height: 180px;
+	border: 1px solid red;
+}*/
