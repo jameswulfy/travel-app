@@ -12,7 +12,7 @@ body{
 .buttons {
 	background: none;
 	border: none;
-	font-size: 25px;
+	font-size: 17px;
 	float: right;
 	margin-top: 5px;
 	margin-right: 25px;
@@ -20,35 +20,221 @@ body{
 	font-weight: 100px;
 	color: white;
 	padding: 10px;
+	font-family: 'Poiret One', cursive;
 }
 
 .nav-buttons {
 	margin-right: 230px;
 }
 
-.main {
-	height: 800px;
+#main {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 900px;
 	width: 100%;
-	background: url("images/air-baloon.jpg") no-repeat center center;
+	background: url("images/air-baloon.jpg");
 	background-size: cover;
-	border: 1px solid black;
+	border: none;
 }
 
-#splendor-title {
-	font-size: 120px;
-	font-family:'Lato', sans-serif;
-	color: black;
+#main-overlay {
+	position: absolute; 
+	z-index: 0;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-size: cover;
+	background-image: url('images/canoe.jpg');
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+#main-content {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.slogan-box {
 	margin: auto 0;
-	margin-left: 100px;
+	margin-top: 90px;
 }
 
-.local-host {
-	height: 550px;
+#slogan-title {
+	text-align: center;
+	font-family:'Raleway', sans-serif;
+	font-weight: 400px;
+	font-size: 70px;
+	margin: 0 auto;
+	color: white;
+}
+
+#moto {
+	text-align: center;
+	font-size: 25px;
+	margin: 0 auto;
+	padding: 5px;
+	font-family:'Raleway', sans-serif;
+	color:white;
+}
+
+.button {
+	border: none;
+	border-radius: 2px;
+	width: 150px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 80px;
+	background-color: hsla(233, 0%, 19%, 0.5);
+	font-family: 'Poiret One', cursive;
+}
+
+.work-text {
+	text-align: center;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	color: white;
+}
+
+.box-wrapper {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	border: none;
+	background-color: hsla(233, 0%, 19%, 0.5);
+	color: white;
+}
+
+#email-box {
+	height: 25px;
+	width: 300px;
+}
+
+.form-wrapper {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	text-align: center;
+}
+
+
+#learn-text {
+	display: inline-block;
+	margin-right: 50px;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100px;
+}
+
+.concept-section-wrapper {
+	width: 100%;
+	height: 700px;
+}
+
+#splendor-concept {
+	text-align: center;
+	margin: auto 0;
+	margin-top: 58px;
+	font-family: 'Poiret One', cursive;
+	font-size: 25px; 
+
+}
+
+#arrow {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0 auto;
+}
+
+
+
+.the-team {
+	margin-top: 40px;
+	display: table;
 	width: 100%;
 }
 
-/*.location-box {
+.to-cell {
+	display: table-cell;
+}
+
+
+#image1 {
+	background-image: url("images/phone.jpg");
+}
+
+#image2 {
+	background-image: url("images/group-fun.jpg");
+}
+
+#image3 {
+	background-image: url("images/lake-jump.jpg");
+}
+
+.title {
+	text-align: center;
+	font-size: 20px;
+}
+
+.portrait {
+	margin: 0 auto;
 	width: 200px;
-	height: 180px;
-	border: 1px solid red;
-}*/
+	height: 100px;
+	border-radius: 1000px;
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 1px;
+}
+
+.names {
+	text-align: center;
+
+}
+
+.personal-description {
+	max-width: 150px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	font-family:'Raleway', sans-serif;
+}
+
+#become {
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#button-text {
+	text-align: center;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	font-family: 'Raleway', sans-serif;
+  	font-size: 20px;
+
+}
+
+footer {
+	width: 100%;
+	height: 55px;
+	border: 1px solid black;
+	background-color: black;
+}

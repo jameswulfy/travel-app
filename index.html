@@ -1,36 +1,115 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="assests/vegas/jquery.vegas.min.css">
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<title>Splendor</title>
 	</head>
 		<body>
-			
-		<div class="main">
+		<div id="main">
+			<div id="main-overlay"></div>
+
+			<div id="main-content">
 				<nav class="navbar">
-				<div class="nav-buttons">
-					<button class="buttons">Contact</button>
-					<button class="buttons">About</button>
-					<button class="buttons">Home</button>
+					<div class="nav-buttons">
+						<button class="buttons">Contact</button>
+						<button class="buttons">Our Story</button>
+					</div>
+	 			</nav>
+
+	 			<div class="slogan-box">
+	 				<h1 id="slogan-title">Welcome to Splendor</h1>
+	 				<h4 id="moto">Connecting You With Your Outdoor Adventure</h4>
+	 			</div>
+
+	 			<div class="button" id="how-it-work">
+	 				<p class="work-text" id="work-button">How It Works</p>
+	 			</div>
+
+	 			<div class="box-wrapper">
+	 				<div class="form-wrapper">
+	 					<p id="learn-text">Be The First to Use Splendor</p>
+	 					<input type="text" class="form-inline location input-large input-contrast" autocomplete="off" id="email-box" name="location" placeholder="Your Email">
+	 				</div>
+	 			</div>
+	 		</div>
+ 		</div>
+
+ 	<div class="concept-section-wrapper">
+ 		<div class="container">
+ 			<h3 id="splendor-concept">The Splendor Concept</h3>
+ 			<img id="arrow" src="images/scroll-arrow.png"/>
+ 		</div>
+
+ 		<div class="the-team">
+				<!-- 4 images side by side with funny titles under them and small description -->
+				<div class="to-cell">
+					<h4 class="title">Browse</h4>
+					<div class="portrait" id="image1"></div>
+					<div class="personal-description">
+						<p>Browse by adventure and activites offered by hosts, and discover the adventures available near you</p>
+					</div>
 				</div>
- 			</nav>
+				<!-- a href="#/"><img src="pictures/peakjames.jpg" id="james"/></a> -->
+				<div class="to-cell">
+					<h4 class="title">Connect</h4>
+					<div class="portrait" id="image2"></div>
+					<div class="personal-description">
+						<p>Connect with outdoor enthusiast who have the knowledge, gear, and means to provide you with an authentic outdoor experience</p>
+					</div>
+				</div>
 
- 			<div class="title-description">
- 				<h1 id="splendor-title">Splendor<h1>
- 				<span id="slogan"></span>
- 			</div>
- 		</div>
+				<div class="to-cell">
+					<h4 class="title">Adventure</h4>
+					<div class="portrait" id="image3"></div>
+					<div class="personal-description">
+						<p>Select your adventure and connect with your host to enjoy the outdoor experience you have always wanted to do</p>
+					</div>
+				</div>
+			</div>
 
- 		<div class="local-host">
+ 		<!-- <div class="the-team">
+
  			<div class="to-cell">
+ 				<div class="portrait" id="image1"></div>
+ 				<div class="description">
+ 				<p>Splendor is the middle man in connecting you with outdoor enthusiast who have the experience, knowledge, gear, and means to provide you with an outdoor adventure.</p>
+ 				</div>
+ 			</div>
+
+ 			<div class="to-cell">
+ 				<div class="portrait" id="image2"></div>
+ 				<div class="description">
+ 					<p>Browse by adventures and activities offered by hosts, and discover a new adventure near you.</p>
+ 				</div>
  			</div>
  		</div>
 
- 			
+ 		
+ 			<div class="to-cell">
+ 				<div class="portrait" id="image3"></div>
+ 				<div class="description">
+ 					<p>Select your adventure and ejoy a personal outdoor experience</p>
+				</div>
+ 			</div>
+
+ 	</div> -->
+ 			<div class="button" id="become">
+ 				<p id="button-text">Become A Splendor Host</p>
+ 			</div>
+
+
+ 		</div>
+
+ 		
+
+ 		<footer></footer>
+ 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+ 		<script src="assests/vegas/jquery.vegas.min.js"></script>
+ 		<script src="js/scripts.js"></script>
 		</body>
 </html>
